@@ -1,25 +1,59 @@
 <html>
 <head>
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <style>
     
-    
+    #main-article {
+
+
+
+border-right:2px solid gray;
+
+
+    }
     
     #outnav {
-        
-        border-top: 1px solid #B6C0D2;
+        position: sticky;
+        border-top: 5px solid #B6C0D2;
         background-color: #313C53;
         width:100%;
-        height:90px;
+        height:110px;
         
     }
     
     #innav {
-        
-        width:1000px;
+        position: sticky;
+       
+        font-size:23px;
+        width:1900px;
         margin:0 auto;
         transform:translate(100px, 50px)
     }
+   
+     .lin a:hover {
+
+    color:#FFFFFF;
+    text-decoration:none;
+
+   }
+   
+   .lin {
+
+color:#9CFF00;
+    text-decoration:none;
+    padding:7px;
+   margin:5px;
+   border-left:1px solid #9CFF00;
+   float:left;
+   }
+
+   
+#no-border {
+border-left:none;
+
+}
+
    body {
     margin: 0;
     padding: 0;
@@ -28,13 +62,97 @@
    
    .btitle {
 
-color:red;
+color:#9CFF00;
 float:left;
 margin:20px;
+transform:translate(-70px, -45px);
 
 }
    
    
+.row {
+
+margin:10px;
+    height:150px;
+
+
+}
+
+
+ol {
+
+list-style-type:none;
+float:left;
+}
+
+.side {
+    float:right;
+height:auto;
+width:50px;
+}
+
+
+#side-articles {
+
+font-size:15px;
+width:100px;
+}
+
+#side-articles h1 {
+
+font-size:20px;
+
+}
+
+.sized {
+
+width:100px;
+
+}
+
+
+
+form {
+    float:left;
+  width:350px;
+margin:5px;
+
+
+}
+
+input {
+   float:left;
+    width:50px;
+}
+    #enter1 {
+        background-color:#B6C0D2;
+        float:right;
+        margin:0px;
+        width:50px;
+        transform:translate(70px, -42px);
+        border:none;
+    }
+
+.display-4 {
+
+font-size:50px;
+color:#9CFF00;
+}
+
+
+.jumbotron {
+
+background-color:#1C263C;
+height:620px;
+color:#B6C0D2;
+}
+
+
+.si-art {
+
+color:#455268;
+
+}
    </style>
 
 
@@ -45,35 +163,154 @@ margin:20px;
         <div id="outnav">
                 
             
-            <h1 class="btitle">BBC News</h1>
+          
                 
                 
                 
                 <div id="innav">
                 
-
-                        <a href="">Home</a>
+                        <h1 class="btitle">BBC News</h1>
+                        <a id="no-border"class="lin" href="">Home</a>
                     
-                        <a href="">UK</a>
+                        <a class="lin" href="">UK</a>
                         
-                        <a href="">World</a>
+                        <a class="lin" href="">World</a>
                         
-                         <a href="">Business</a>
+                         <a class="lin" href="">Business</a>
                         
-                         <a href="">Politics</a>
+                         <a class="lin" href="">Politics</a>
                         
-                         <a href="">Tech</a>
+                         <a class="lin" href="">Tech</a>
                         
-                         <a href="">Science</a>
+                         <a class="lin" href="">Science</a>
                         
-                         <a href="">Health</a>
+                         <a class="lin" href="">Health</a>
 
 
 
-                
+                         <div>
+
+                                <form>  
+                                    <label class="sr-only" for="inlineFormInputName2">Name</label>
+                                    <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Search">
+                                    <button id="enter1" type="button" value="enter" class="btn btn-primary btn-sm">Enter</button>
+                                </form>
+            
+                            </div>
                 </div>
                 
+                
+
                 </div>
                 
+
+
+                <div class="row">
+                <div id="main-article" class="col-sm-9 bg">
+                   
+                   
+                   
+                    <div class="jumbotron">
+                        <h1 class="display-4">Spacex lands on Mars, Uranus and on the Sun</h1>
+                       
+                        <p class="lead"><b>August 1, 2019 5:36 pm</b></p>
+                       
+                       
+                        <hr class="my-4">
+                        
+                        <div class="row">
+                                <div class="col-sm-6 sm"> <img width="380px" height="380px" src="/image/rocket.jpg"> </div>
+                                      <p class="col-sm-6 sm" class="side"> 
+                                        <b>July 12, 2019</b>
+                                        <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Purus in massa tempor nec feugiat nisl pretium
+                                         fusce id. Nunc scelerisque viverra mauris in aliquam sem fringilla ut morbi. Enim eu turpis
+                                         egestas pretium aenean pharetra. Sed viverra tellus in hac habitasse platea. Donec massa sapien
+                                         faucibus et molestie ac feugiat sed. Id ornare arcu odio ut sem nulla pharetra diam. Lectus
+                                         vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt.
+                                         egestas pretium aenean pharetra. Sed viverra tellus in hac habitasse platea. Donec massa sapien
+                                         faucibus et molestie ac feugiat sed. Id ornare arcu odio ut sem nulla pharetra diam. Lectus
+                                        vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Lectus
+                                        vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt.
+                                    </p>
+                                </div>
+                      </div>
+                  
+                  
+                    </div>
+                  
+                  
+                  
+                  <div id="side-articles" class="col-sm-3 bg">
+                    
+                    <ol>
+                        <a href="#">
+                        <li>
+                             
+                            <div class="row si-art">
+                            <div class="col-sm-6 sm"> <h1>Trump Turns Communist</h1><img width="80px" height="80px" src="/image/trump.jpg"> </div>
+                                  <p class="col-sm-6 sm" class="side"> 
+                                    <b>July 12, 2019</b>
+                                    <br /> Trump announces a change in the way things will be run
+                                </p>
+                            </div>
+                        
+                        </li>
+                        </a>
+                       
+                    
+                    
+                        <a href="#">
+                            <li>
+                                 
+                                <div class="row si-art">
+                                <div class="col-sm-6 sm"> <h1>Martha Gets A KO</h1><img width="80px" height="80px" src="/image/mma.jpg"> </div>
+                                      <p class="col-sm-6 sm" class="side"> 
+                                        <b>May 2, 2019</b>
+                                        <br /> Stunning kick to the head ends it all
+                                    </p>
+                                </div>
+                            
+                            </li>
+                            </a>
+                           
+                            <a href="#">
+                                <li>
+                                     
+                                    <div class="row si-art">
+                                    <div class="col-sm-6 sm"> <h1>Lion Escapes Zoo</h1><img width="80px" height="80px" src="/image/lion.jpg"> </div>
+                                          <p class="col-sm-6 sm" class="side"> 
+                                            <b>June 17, 2019</b>
+                                            <br /> It turns into a horrible aftermatch
+                                        </p>
+                                    </div>
+                                
+                                </li>
+                                </a>
+                               
+                    </ol>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
